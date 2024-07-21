@@ -62,4 +62,11 @@ export default {
 - Realiza un commit de los cambios añadidos: [git commit -m "Añadir componente Section1 con tipos explícitos"]
 - Sube los cambios al repositorio remoto [git push origin main]
 
-# Clonar 
+# cambiar la rama principal de master a main
+
+- Cambiar el nombre de la rama local [git branch -m master main]
+- Empujar la nueva rama main al repositorio remoto [git push origin main]
+- Establecer la nueva rama main como upstream [git branch -u origin/main main]
+- Actualizar la referencia HEAD del remoto [git remote set-head origin -a]
+- verificar que el cambio se realizó correctamente usando el siguiente comando para ver las ramas y su configuración: [git branch -vv]
+- confirmar que tu rama principal es main [git status]
