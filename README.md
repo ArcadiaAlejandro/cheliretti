@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -70,3 +71,6 @@ export default {
 - Actualizar la referencia HEAD del remoto [git remote set-head origin -a]
 - verificar que el cambio se realizó correctamente usando el siguiente comando para ver las ramas y su configuración: [git branch -vv]
 - confirmar que tu rama principal es main [git status]
+=======
+# cheliretti
+>>>>>>> 2f7b4559e2ae4e0ee3cf55665375b4e2b603dd1f
