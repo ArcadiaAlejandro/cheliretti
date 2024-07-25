@@ -27,7 +27,7 @@ const Header: React.FC = () => {
                 </svg>
             </button>
             <nav className='md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center'>
-                <Link to='/Home' className="mr-5 hover:text-gray-400">Inicio</Link>
+                <Link to='/' className="mr-5 hover:text-gray-400">Inicio</Link>
                 <Link to='/SobreNosotros' className="mr-5 hover:text-gray-400">Sobre Nosotros</Link>
                 <Link to='/Servicios' className="mr-5 hover:text-gray-400">Servicios</Link>
                 <Link to='/Proyectos' className="mr-5 hover:text-gray-400">Proyectos</Link>
