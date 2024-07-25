@@ -1,4 +1,5 @@
 import logo from '../assets/Logo.svg';
+
 const Footer = () => {
     return (
     <>
@@ -13,7 +14,7 @@ const Footer = () => {
                 <li><a className="text-gray-400 hover:text-white">Sobre Nosotros</a></li>
                 <li><a className="text-gray-400 hover:text-white">Ubicación</a></li>
                 <li><a className="text-gray-400 hover:text-white">Sostenibilidad</a></li>
-                <li><a className="text-gray-400 hover:text-white">Contactanos</a></li>
+                <li><a className="text-gray-400 hover:text-white">Contáctanos</a></li>
               </ul>
             </nav>
           </div>
@@ -60,7 +61,6 @@ const Footer = () => {
               </ul>
             </nav>
           </div>
-
         </div>
       </div>
       <div className="bg-black">

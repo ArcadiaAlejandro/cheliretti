@@ -26,7 +26,7 @@ const Section1 = () => {
   const [activeSection, setActiveSection] = useState<SectionKey>('telecomunicaciones');
 
   return (
-    <div className="relative h-screen">
+    <div className="relative h-screen overflow-hidden">
       <video className="absolute inset-0 w-full h-full object-cover" autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>
@@ -44,14 +44,14 @@ const Section1 = () => {
           Más información sobre nuestros servicios
         </button>
       </div>
-      <hr className="relative top-3/4 mx-auto border-t-4 border-yellow-500 w-2/3" />
-      <div className="flex justify-center space-x-36 absolute bottom-32 w-full italic">
+      <hr className="relative top-3/4 mx-auto border-t-4 border-yellow-500 w-2/3 md:w-1/2 lg:w-2/3" />
+      <div className="absolute bottom-32 w-full flex justify-center space-x-6 md:space-x-8 lg:space-x-32 italic">
         {Object.keys(sections).map((key) => (
           <a
             key={key}
             href="#"
             onClick={() => setActiveSection(key as SectionKey)}
-            className="text-white hover:text-[#FFCC00]"
+            className="text-white hover:text-[#FFCC00] text-sm md:text-base lg:text-lg"
           >
             {sections[key as SectionKey].title.split(' ')[3]}
           </a>
