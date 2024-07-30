@@ -13,7 +13,7 @@ const Header: React.FC = () => {
         <header className="text-white body-font bg-[#444444] fixed top-0 left-0 right-0 z-20 shadow-md">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <Link to='/'> <img src={logo} alt="Logo" className="h-8 sm:h-10" /> </Link>
+                <Link to='/'> <img src={logo} alt="Logo" className="h-12 sm:h-16 " /> </Link>
                 </a>
                 <button
                     aria-label="Toggle menu"
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
                     <Link to='/Proyectos' className="block md:inline-block px-4 py-2 text-white hover:text-gray-400">Proyectos</Link>
                     <Link to='/Contacto' className="block md:inline-block px-4 py-2 text-white hover:text-gray-400">Contáctanos</Link>
                 </nav>
-                <button className="inline-flex items-center bg-[#FFCC00] border-0 py-1 px-3 focus:outline-none hover:bg-gray-400 rounded text-base mt-4 md:mt-0"
+                <button className="inline-flex items-center bg-[#FFCC00] py-1 px-3 focus:outline-none hover:bg-gray-400 rounded text-base text-gray-600 mt-4 md:mt-0"
                     aria-label="Escríbenos">
                     Escríbenos
                 </button>

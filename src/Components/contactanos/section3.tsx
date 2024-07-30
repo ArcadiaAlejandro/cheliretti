@@ -5,7 +5,7 @@ const Section3: React.FC = () => {
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_v5estfv', 'template_ykya62q', e.currentTarget, '_k_NJ4g7HsLwBcpC2')
+    emailjs.sendForm('service_hla60tj', 'template_8hj8fba', e.currentTarget, 'v4WJ3etnsObryVGvP')
       .then((result) => {
           console.log(result.text);
           alert('Mensaje enviado exitosamente');
