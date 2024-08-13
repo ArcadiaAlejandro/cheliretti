@@ -1,4 +1,5 @@
 import logo from '../assets/Logo.svg';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -10,11 +11,11 @@ const Footer = () => {
             <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CORPORATIVO</h2>
             <nav className="list-none mb-10">
               <ul>
-                <li><a className="text-gray-400 hover:text-white">Página Principal</a></li>
-                <li><a className="text-gray-400 hover:text-white">Sobre Nosotros</a></li>
-                <li><a className="text-gray-400 hover:text-white">Ubicación</a></li>
-                <li><a className="text-gray-400 hover:text-white">Sostenibilidad</a></li>
-                <li><a className="text-gray-400 hover:text-white">Contáctanos</a></li>
+                <li> <Link to='/'><a className="text-gray-400 hover:text-white">Página Principal</a></Link></li>
+                <li> <Link to='/SobreNosotros'><a className="text-gray-400 hover:text-white">Sobre Nosotros</a></Link></li>
+                <li> <Link to='/Servicios'><a className="text-gray-400 hover:text-white">Servicios</a></Link></li>
+                <li> <Link to='/Proyectos'><a className="text-gray-400 hover:text-white">Proyectos</a></Link></li>
+                <li> <Link to='/Contacto'><a className="text-gray-400 hover:text-white">Contáctanos</a></Link></li>
               </ul>
             </nav>
           </div>
@@ -70,8 +71,6 @@ const Footer = () => {
             <a href="#" className="text-gray-400 ml-2 hover:text-white">Declaración de Privacidad</a>
             <span className="mx-2">|</span>
             <a href="#" className="text-gray-400 hover:text-white">Términos y condiciones</a>
-            <span className="mx-2">|</span>
-            <a href="#" className="text-gray-400 hover:text-white">Accesibilidad</a>
             <span className="mx-2">|</span>
             <a href="#" className="text-gray-400 hover:text-white">Configuración de cookies</a>
           </p>

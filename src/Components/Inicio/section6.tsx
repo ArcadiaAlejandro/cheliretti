@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 const Section6 = () => {
     return (
         <div className="relative flex flex-col items-center justify-center  p-8 sm:p-12">
@@ -10,10 +10,7 @@ const Section6 = () => {
             <p className="italic">
                y ten la mejor experiencia de calidad con nuestros servicios.
             </p>
-            <form action="" className="mx-auto mt-4 flex w-full max-w-md flex-col gap-3 sm:flex-row sm:gap-0">
-              <input type="email" name="email" id="email" className="grow rounded border-2 border-gray-300 py-3 px-3 focus:border-[#FFCC00] focus:outline-none sm:rounded-l-md sm:rounded-r-none sm:border-r-0" placeholder="Ingresa tu Correo Electronico" />
-              <button type="submit" className="rounded bg-[#FFCC00] px-5 py-4 font-bold text-white sm:rounded-l-none sm:rounded-r-md">Enviar email</button>
-            </form>
+            <Link to='/Contacto'><button className="inline-flex mt-4 px-6 py-2 bg-[#FFCC00] text-black font-semibold hover:bg-[#FFCC00]">Contáctanos 🡭</button></Link>
           </div>
         </div>
       </div>

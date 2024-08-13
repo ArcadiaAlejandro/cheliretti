@@ -44,10 +44,11 @@ const Header: React.FC = () => {
                     <Link to='/Proyectos' className="block md:inline-block px-4 py-2 text-white hover:text-gray-400">Proyectos</Link>
                     <Link to='/Contacto' className="block md:inline-block px-4 py-2 text-white hover:text-gray-400">Contáctanos</Link>
                 </nav>
-                <button className="inline-flex items-center bg-[#FFCC00] py-1 px-3 focus:outline-none hover:bg-gray-400 rounded text-base text-gray-600 mt-4 md:mt-0"
-                    aria-label="Escríbenos">
+                <a href="https://wa.me/message/HWIKSF7KRY4TJ1"><button className="inline-flex items-center bg-[#FFCC00] py-1 px-3 focus:outline-none hover:bg-gray-400 rounded text-base text-gray-600 mt-4 md:mt-0"
+                    aria-label="Escríbenos"
+                    >
                     Escríbenos
-                </button>
+                </button></a>
             </div>
         </header>
     );
