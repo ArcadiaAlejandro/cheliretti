@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-
 import Home from './routes/Inicio.tsx';
 import Nosotros from './routes/nosotros.tsx'
 import Contacto from './routes/contacto.tsx'

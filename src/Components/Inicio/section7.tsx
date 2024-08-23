@@ -1,9 +1,9 @@
 
-import aliado1 from '../../assets/aliados/3APROYECTOS.svg'
-import aliado2 from '../../assets/aliados/Molisa Ingenieros.svg'
-import aliado3 from '../../assets/aliados/QMC.svg'
-import aliado4 from '../../assets/aliados/TR .svg'
-import aliado5 from '../../assets/aliados/turistelecom.svg'
+import aliado1 from '/assets/aliados/3APROYECTOS.svg'
+import aliado2 from '/assets/aliados/Molisa Ingenieros.svg'
+import aliado3 from '/assets/aliados/QMC.svg'
+import aliado4 from '/assets/aliados/TR .svg'
+import aliado5 from '/assets/aliados/turistelecom.svg'
 
 const logos = [
     aliado1,

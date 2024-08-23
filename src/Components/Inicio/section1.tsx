@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import video from '../../assets/Section_hero_video.mp4';
+import video from '/assets/Section_hero_video.mp4';
 
 const sections = {
   telecomunicaciones: {

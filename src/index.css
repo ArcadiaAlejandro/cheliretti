@@ -4,19 +4,11 @@
 
 
 .bg-custom {
-    background-image: url('/src/assets/Patron.svg');
+    background-image: url('/dist/assets/Patron-BBvffvt2.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-
-  .bg-torre {
-    background-image: url('/src/assets/torres.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
 
 
 

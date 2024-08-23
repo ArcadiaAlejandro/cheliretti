@@ -1,6 +1,6 @@
-import Excelencia from '../../assets/Excelencia.svg';
-import Eficiencia from '../../assets/Eficiencia.svg';
-import Eficacia from '../../assets/Eficacia.svg';
+import Excelencia from '/assets/Excelencia.svg';
+import Eficiencia from '/assets/Eficiencia.svg';
+import Eficacia from '/assets/Eficacia.svg';
 
 const Section4 = () => {
 
